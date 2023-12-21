@@ -1,0 +1,15 @@
+.surat {
+    opacity: 0;
+    animation: fadeIn .5s linear forwards;
+    transition: .5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
